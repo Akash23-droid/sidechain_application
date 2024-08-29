@@ -1,0 +1,19 @@
+// {
+//   "files": [],
+//   "references": [
+//     { "path": "./tsconfig.app.json" },
+//     { "path": "./tsconfig.node.json" }
+//   ]
+// }
+{
+  "compilerOptions": {
+    "allowJs": true, // Allow JavaScript files to be imported
+    "checkJs": false, // Skip type-checking JavaScript files
+    "jsx": "react-jsx", // Handle JSX syntax in React
+    "moduleResolution": "node", // Enable Node.js module resolution
+    "esModuleInterop": true, // Ensure compatibility with common JS modules
+    "skipLibCheck": true // Skip checking .d.ts files for JS libraries
+    // other options...
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.js", "src/**/*.jsx"]
+}
